@@ -31,3 +31,18 @@
     transform: rotate(360deg);
   }
 }
+
+.toggle{
+  width: 200px;
+  display: flex;
+  height: 60px;
+  margin: 12px;
+  background: lightgreen;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-checked{
+  background:purple;
+}
